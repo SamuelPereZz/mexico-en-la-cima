@@ -1,8 +1,9 @@
-# React + Vite
+# Descripcion
+Highlighting tourism in rural populations is essential to boost their economic growth, however, there is little tourism diffusion that includes this sector. For this reason, we have developed a web platform that disseminates tourism in rural populations of Mexico, which is aimed at travelers who seek to experience the cultural diversity of the country.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Download PDF](https://drive.google.com/file/d/1el3w2Lnx15FebJn-ye-HWMyYyXlDrWnV/view?usp=sharing)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Run project
+1. Clone repo
+2. Install dependencies ``` npm install```
+3. Run proyect ```npm run dev```
