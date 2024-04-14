@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 import fondo from "../assets/magictown.jpg";
 import { useState } from "react";
 import TravelList from "./TravelList";
+import UsersExperiences from "../components/UsersExperiences";
 
 const Fondo = styled.div`
   background-image: url(${fondo});
@@ -134,7 +135,7 @@ function HomePage() {
     <>
       <Fondo>
         <FormContainer onSubmit={handleSearch}>
-          <h1>Book unique accommodations to code as never before</h1>
+          <h1>Don't be afraid to find your next adventure</h1>
           <label htmlFor="searchTerm">WHERE</label>
           <input
             type="text"
@@ -164,7 +165,7 @@ function HomePage() {
               onChange={handleDepartureChange}
             />
           </div>
-          <label htmlFor="developers">DEVELOPERS</label>
+          <label htmlFor="developers">PEOPLE</label>
           <input
             type="number"
             name="developers"
@@ -183,6 +184,7 @@ function HomePage() {
         </Title>
         <TravelList />
       </TravelsHome>
+      <UsersExperiences/>
     </>
   );
 }

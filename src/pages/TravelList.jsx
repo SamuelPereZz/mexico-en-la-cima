@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { travelsData } from "../services/fakeApi";
+import { travelsData } from "../services/travelsData";
 import {
   Card,
   CardHeader,

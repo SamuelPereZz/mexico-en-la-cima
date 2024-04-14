@@ -2,13 +2,13 @@ import styled from "@emotion/styled";
 import { FaBars } from "react-icons/fa6";
 import { NavLink, useNavigate } from "react-router-dom";
 import { useState } from "react";
-import { Button1, Button2 } from "./Buttons";
+import { Button1, Button2, Button3 } from "./Buttons";
 import { FiSearch } from "react-icons/fi";
-import {
-  RiHome8Line,
-  RiLogoutCircleLine,
-  RiUserLine,
-} from "react-icons/ri";
+import { RiHome8Line, RiLogoutCircleLine, RiUserLine } from "react-icons/ri";
+import { FaHouseUser } from "react-icons/fa";
+import { GiMexico } from "react-icons/gi";
+import { TbBrowserCheck } from "react-icons/tb";
+
 
 const Wrapper = styled.nav`
   margin: 0;
@@ -94,49 +94,36 @@ function Navbar() {
       </HamburgerButton>
       <ul>
         <li>
-          <NavLink
-            to={"/"}
-            onClick={() => handleNavigation("/")}
-          >
-            <Button1 style={{ textTransform: "uppercase", width: 190,  }}>
-              <FiSearch />
+          <NavLink to={"/"} onClick={() => handleNavigation("/")}>
+            <Button1 style={{ textTransform: "uppercase", width: 190 }}>
+            <GiMexico />
               new adventures
             </Button1>
           </NavLink>
         </li>
         <li>
-          <NavLink
-            to={"/"}
-            onClick={() => handleNavigation("/")}
-          >
-            <Button2
-              style={{ width: 130, textTransform: "uppercase" }}
-            >
+          <NavLink to={"/"} onClick={() => handleNavigation("/")}>
+            <Button2 style={{ width: 130, textTransform: "uppercase" }}>
               <RiLogoutCircleLine />
               Logout
             </Button2>
           </NavLink>
         </li>
         <li>
-          <NavLink
-            to={"/"}
-            onClick={() => handleNavigation("/")}
-          >
-            <Button1 style={{ width: 191, textTransform: "uppercase" }}>
-              <RiHome8Line /> My Properties
-            </Button1>
+          <NavLink to={"/"} onClick={() => handleNavigation("/")}>
+            <Button2 style={{ width: 191, textTransform: "uppercase" }}>
+            <TbBrowserCheck /> My trips
+            </Button2>
           </NavLink>
         </li>
         <li>
-          <NavLink
-            to={"/"}
-            onClick={() => handleNavigation("/")}
-          >
-            <Button1 style={{ width: 129, textTransform: "uppercase" }}>
+          <NavLink to={"/"} onClick={() => handleNavigation("/")}>
+            <Button3 style={{ width: 129, textTransform: "uppercase" }}>
               {" "}
-              <RiUserLine />
               Profile
-            </Button1>
+              <FaHouseUser />
+
+            </Button3>
           </NavLink>
         </li>
       </ul>

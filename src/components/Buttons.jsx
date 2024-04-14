@@ -48,6 +48,7 @@ export const Button2 = styled.button`
 `;
 
 export const Button3 = styled.button`
+    background-color: #26844E;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -57,16 +58,18 @@ export const Button3 = styled.button`
   background-color: none;
   border-radius: 8px;
   padding: 2px 10px;
-  color: #0e1425;
-  border: none;
+  color: #ffffff;
+  border: 1px solid #26844E;
   &:hover {
-    background-color: #aebdc7;
-    border: 2px solid black;
+    border: 2px solid #26844E;
+    background-color: #ffffff;
+    color: #BD143D;
+
   }
   &:active {
-    border: 1px solid #0e1425;
-    background-color: #8c98a0;
-    color: #222839;
+    border: 1px solid #26844E;
+    background-color: #ffffff;
+    color: #BD143D;
   }
   @media (max-width: 500px) {
     min-width: 80px;
