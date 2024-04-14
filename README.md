@@ -36,3 +36,4 @@ To install and run Eatable on your local machine, follow these simple steps:
    ```shell
    npm run dev
    ```
+
