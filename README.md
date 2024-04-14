@@ -7,9 +7,9 @@ Highlighting tourism in rural populations is essential to boost their economic g
 > Project created for Hackmexico 2024
 
 - **Main development details:** [Download PDF](https://drive.google.com/file/d/1el3w2Lnx15FebJn-ye-HWMyYyXlDrWnV/view?usp=sharing)
-- **Figma desing:** [look at design](https://www.figma.com/file/c8jVE2YfZhuPpKNqiYrE05/Chairdnb-(Copy)?type=design&node-id=0-1&mode=design&t=unhN9E1qnrpTAiKE-0)
-- **Design demo:** [look at design](https://www.figma.com/proto/c8jVE2YfZhuPpKNqiYrE05/Chairdnb-(Copy)?type=design&node-id=0-1&t=unhN9E1qnrpTAiKE-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A12)
-- **Web application page:** [Mexico en la cima web](https://661bffeebbe123864efcbaaa--timely-profiterole-63388c.netlify.app/)
+- **Figma desing:** [Look at design](https://www.figma.com/file/c8jVE2YfZhuPpKNqiYrE05/Chairdnb-(Copy)?type=design&node-id=0-1&mode=design&t=unhN9E1qnrpTAiKE-0)
+- **Design demo:** [Try demo](https://www.figma.com/proto/c8jVE2YfZhuPpKNqiYrE05/Chairdnb-(Copy)?type=design&node-id=0-1&t=unhN9E1qnrpTAiKE-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A12)
+- **Web application page:** [Web](https://661bffeebbe123864efcbaaa--timely-profiterole-63388c.netlify.app/)
 - **Demo video:** [Youtube](https://www.youtube.com/watch?v=EESSkDhOxOI)
 - 
 
