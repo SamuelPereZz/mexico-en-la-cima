@@ -1,18 +1,15 @@
-import styled from "@emotion/styled";
-import fondo from "../src/assets/fondo.svg";
-
-
-const Fondo = styled.img`
-  background-image: url("src/assets/GroupLadingPage.svg");
-  width: ;
-  height: ;
-`;
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Header from "./components/Header";
+import HomePage from "./pages/Home";
 
 function App() {
   return (
-    <>
-      <Fondo src={fondo} alt="fondo" />
-    </>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

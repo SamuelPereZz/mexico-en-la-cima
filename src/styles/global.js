@@ -2,7 +2,7 @@
 import { css } from "@emotion/react";
 
 export const reset = css`
-  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
   /* Box sizing rules */
   *,
   *::before,
@@ -10,17 +10,7 @@ export const reset = css`
     box-sizing: border-box;
   }
   /* Remove default margin */
-  body,
-  h1,
-  h2,
-  h3,
-  h4,
-  label,
-  p,
-  figure,
-  blockquote,
-  dl,
-  dd {
+  body {
     margin: 0;
   }
   /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -73,7 +63,5 @@ export const reset = css`
 
 export const global = css`
   body {
-    font-size: 16px;
-    line-height: 24px;
   }
 `;
