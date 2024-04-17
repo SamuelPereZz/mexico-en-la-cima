@@ -31,7 +31,7 @@ To install and run Eatable on your local machine, follow these simple steps:
    npm install
    ```
    
-3. **Start the app**: Launch the Eatable app and start managing your dishes:
+3. **Start the app**: Start the 'Mexico on top' app and start your journey into the unknown:
 
    ```shell
    npm run dev
