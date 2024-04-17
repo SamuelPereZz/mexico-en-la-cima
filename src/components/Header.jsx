@@ -6,16 +6,6 @@ import Navbar from "./Navbar";
 const Wrapper = styled.div`
   position: relative;
   z-index: 2;
-  :before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-  }
-  background-color: #ffffff;
   display: flex;
   padding: 10px 0;
   justify-content: space-around;

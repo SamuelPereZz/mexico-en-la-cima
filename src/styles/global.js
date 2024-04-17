@@ -2,7 +2,7 @@
 import { css } from "@emotion/react";
 
 export const reset = css`
-  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+  @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
   /* Box sizing rules */
   *,
   *::before,
@@ -63,5 +63,12 @@ export const reset = css`
 
 export const global = css`
   body {
+    background: rgb(24, 138, 44);
+    background: linear-gradient(
+      90deg,
+      rgba(24, 138, 44, 1) 0%,
+      rgba(255, 255, 255, 1) 35%,
+      rgba(204, 12, 25, 1) 100%
+    );
   }
 `;
