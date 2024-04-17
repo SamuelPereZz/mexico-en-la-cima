@@ -21,8 +21,8 @@ To install and run Eatable on your local machine, follow these simple steps:
 1. **Clone the repository**: Start by cloning the repository on your local machine:
 
    ```shell
-   git clone git@github.com:SamuelPereZz/eatable.git
-   cd eatable
+   git@github.com:SamuelPereZz/mexico-en-la-cima.git
+   cd mexico-en-la-cima
    ```
 
 2. **Install dependencies**: Run the following command to install the necessary dependencies:
