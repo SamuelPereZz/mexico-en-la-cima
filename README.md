@@ -11,7 +11,7 @@ Highlighting tourism in rural populations is essential to boost their economic g
 - **Design demo:** [Try demo](https://www.figma.com/proto/c8jVE2YfZhuPpKNqiYrE05/Chairdnb-(Copy)?type=design&node-id=0-1&t=unhN9E1qnrpTAiKE-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A12)
 - **Web application page:** [Web](https://mexicoenlacima.netlify.app/)
 - **Demo video:** [Youtube](https://www.youtube.com/watch?v=EESSkDhOxOI)
-- 
+
 
 
 # Start your experience
