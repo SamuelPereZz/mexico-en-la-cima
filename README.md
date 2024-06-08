@@ -1,5 +1,5 @@
 # México en la cima.
-<img src="https://i.imgur.com/Qvghfwh.png" alt="Mexico-en-la-cima">
+<img src="https://i.imgur.com/ZMcLf0D.png" alt="Mexico-en-la-cima">
 
 Highlighting tourism in rural populations is essential to boost their economic growth, however, there is little tourism diffusion that includes this sector. For this reason, we have developed a web platform that disseminates tourism in rural populations of Mexico, which is aimed at travelers who seek to experience the cultural diversity of the country.
 
